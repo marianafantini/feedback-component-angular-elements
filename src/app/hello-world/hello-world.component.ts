@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   templateUrl: './hello-world.component.html',
@@ -6,10 +6,15 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HelloWorldComponent implements OnInit {
   @Input() title = '';
+  @Output() clicked = new EventEmitter();
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onButtonClicked() {
+    this.clicked.emit(true);
   }
 
 }
