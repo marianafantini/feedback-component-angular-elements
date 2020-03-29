@@ -48,7 +48,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further information about this project
 
-I used [this blog post](https://blog.bitsrc.io/using-angular-elements-why-and-how-part-1-35f7fd4f0457) to learn how to use Angular Elements. I just made a few changes to the `custombuild.sh` script, changing the `dist` files to the ones my project generated and adding the `css` bit. I also changed the `preview` file to `docs` to be able to use GitHub Pages to serve this component.  
+I used [this blog post](https://blog.bitsrc.io/using-angular-elements-why-and-how-part-1-35f7fd4f0457) to learn how to use Angular Elements. I just made a few changes to the `custombuild.sh` script, changing the `dist` files to the ones my project generated and adding the `css` bit. I also changed the `preview` file to `docs` to be able to use GitHub Pages to serve this preview page.  
 
 ## Further help
 
