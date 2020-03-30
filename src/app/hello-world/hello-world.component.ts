@@ -8,7 +8,7 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class HelloWorldComponent implements OnInit, OnChanges{
   @Input() title = '';
-  @Input('to-do-list') toDoList = '';
+  @Input('list') toDoList = '';
   @Output() clicked = new EventEmitter();
 
   toDoList$ = new BehaviorSubject<any>('');

@@ -10,7 +10,7 @@ const mockedAPIResponse = [
 
 // Simulate a call to an API returning the information
 setTimeout(() => {
-  appHelloWorld.setAttribute('to-do-list', JSON.stringify(mockedAPIResponse));
+  appHelloWorld.setAttribute('list', JSON.stringify(mockedAPIResponse));
 }, 1000);
 
 // Execute action when custom element launches an event
