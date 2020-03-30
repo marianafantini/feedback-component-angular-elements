@@ -38,14 +38,6 @@ The second command is a `cat` that will get all the content from `main-es2015.js
 
 Run `./custombuild.sh` to build the project and export the code to `docs/feedback-component-custom-element.js` and `docs/feedback-component-custom-element.css`. Open `docs/index.html` to see the results of your changes on a plain `html` file.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
 ## Further information about this project
 
 I used [this blog post](https://blog.bitsrc.io/using-angular-elements-why-and-how-part-1-35f7fd4f0457) to learn how to use Angular Elements. I just made a few changes to the `custombuild.sh` script, changing the `dist` files to the ones my project generated and adding the `css` bit. I also changed the `preview` file to `docs` to be able to use GitHub Pages to serve this preview page.  
